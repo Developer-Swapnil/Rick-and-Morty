@@ -1,0 +1,20 @@
+.main-box{
+    /* background-color: black; */
+    height: fit-content;
+}
+
+.header-image{
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 0px;
+    background-color: black;
+}
+.header-image:hover{
+    box-shadow: rgba(170, 86, 86, 0.1) 0px 1px 0px;
+}
+
+.header-image>img{
+    width: 15vw;
+}

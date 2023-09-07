@@ -1,0 +1,27 @@
+.homepageMain{
+    display: flex;
+    flex-direction: column;
+}
+
+.character-part{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: 10px;
+    /* background-image: url("../Images/logo.png"); */
+}
+.character-part>img{
+    width: auto;
+    height: auto;
+    position: absolute;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
