@@ -11,6 +11,7 @@ const Search = () => {
 
     // console.log(search);
     // dispatch(AllCharacter(search))
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [search]);
   const ClickHandler = (e) => {
     e.preventDefault();
