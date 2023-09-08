@@ -13,6 +13,7 @@ function App() {
 
   useEffect(() => {
     dispatch(CharacterFilterAction(characterFilterData));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [characterFilterData]);
   return (
     <div className="App">

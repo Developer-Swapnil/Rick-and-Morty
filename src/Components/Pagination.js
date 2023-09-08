@@ -1,14 +1,13 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import ReactPaginate from "react-paginate";
 import { useDispatch, useSelector } from "react-redux";
 // import { NextPageCharacter } from "../Actions/Actions";
 import { characterAction } from "../Reducers/Reducer";
 export const Pagination = () => {
   const dispatch = useDispatch();
+  // eslint-disable-next-line
   const [click, setClickHandler] = useState(" ");
-  const { characterFilterData, characterData } = useSelector(
-    (state) => state.CharacterStore
-  );
+  const { characterData } = useSelector((state) => state.CharacterStore);
   const handlePageClick = (data) => {
     // console.log(pageCount);
     console.log(data.selected + 1);

@@ -1,9 +1,9 @@
 import React from "react";
-import { useSelector } from "react-redux";
+// import { useSelector } from "react-redux";
 import FilterBTN from "./FilterButtn";
 
 const Status = () => {
-  const { characterFilterData } = useSelector((state) => state.CharacterStore);
+  // const { characterFilterData } = useSelector((state) => state.CharacterStore);
 
   let status = ["Alive", "Dead", "Unknown"];
   return (

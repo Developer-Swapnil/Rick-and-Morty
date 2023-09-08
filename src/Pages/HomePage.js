@@ -3,7 +3,7 @@ import CharacterComponent from "../Components/Character";
 import Header from "../Components/Header";
 import { Pagination } from "../Components/Pagination";
 import "./HomePage.css";
-import logo from "../Images/logo.png";
+// import logo from "../Images/logo.png";
 import Filter from "../Filter/Filter";
 import Search from "../Components/Search";
 const HomePage = () => {
