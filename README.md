@@ -18,7 +18,7 @@ CSS:ChakraUI
 
 https://rick-and-morty-characters-details.netlify.app/
 
-![](./frontend/components/ScreenShots/Wooble-4.png)
+![](https://github.com/Developer-Swapnil/Rick-and-Morty/blob/af7451bd40ebce4ed2236b6932c909c80ac8147f/src/Images/RickandMorty-1.png)
 
 ## Run Locally
 
